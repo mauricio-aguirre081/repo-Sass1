@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:ital,wght@0,300;0,400;0,900;1,400;1,700&display=swap');
+
+@import './variables';
+@import './navbar.scss';
+@import './footer';
+@import './servicios';
+@import './testimonios';
+@import './sobremi';
+@import './contacto';
+
+
+* {
+
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: $background-color;
+}
+
+
+/************************************** HOME *********************************************/
+
+
+.div-h2{
+    background-color: $h2-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.h2-main{
+    font-family: Lato;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-boot{
+    background-color: $main-color;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+}
+
+
+.carousel-inner{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#div__home__parrafo{
+    width: 60%;
+}
+
+
+
+#div__home__parrafo p{
+    font-family: Lato;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/*********************************media querie mobile ***********************************/
+
+@media only screen  and (max-width: 320px) {
+
+    .navbar-nav{
+        margin-right: 5px;
+    }
+    
+    .navbar-brand{
+        font-family: Alex Brush;
+        font-size: 20px;
+        margin-left: 5px;
+    }
+
+    .card-group iframe{
+        padding-left: 5px;
+        width: 200px;
+    }
+
+    #div__sobremi__parrafo p{
+        font-size: 20px;
+    }
+
+    .div-formulario{
+        padding-left: 5px;
+        padding-top: 30px;
+    }
+
+
+}

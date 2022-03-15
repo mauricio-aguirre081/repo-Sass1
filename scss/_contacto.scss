@@ -1,0 +1,31 @@
+/*************************************** CONTACTO ****************************************/
+
+.div-contacto{
+    background-color: #E8E8E4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+
+    & #div__contacto__img{
+        width: 450px;
+    
+        &#div__contacto__img img{
+            width: 450px;
+        }
+    }
+
+    & .div-formulario{
+        padding-left: 20px;
+        padding-top: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

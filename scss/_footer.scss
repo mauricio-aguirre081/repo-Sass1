@@ -1,0 +1,18 @@
+.footer{
+    background-color: $footer-color;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    font-family: Lato;
+    font-size: 25px;
+    padding-top: 10px;
+    justify-content: space-between;
+    
+    & .par-right p{
+        text-align: right;
+    }
+    
+
+}
+
+
+
